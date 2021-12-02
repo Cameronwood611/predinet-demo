@@ -1,0 +1,24 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Cameronwood611", email = "cwood611@uab.edu"},
+]
+dependencies = [
+    "torch==1.7.0",
+    "torch-geometric~=2.0",
+    "torch-scatter~=2.0",
+]
+requires-python = ">=3.8"
+license = {text = "_"}
+
+[project.urls]
+homepage = ""
+
+[tool]
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
