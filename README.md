@@ -3,7 +3,7 @@
 
 ## My Contributions
 
-I have downloaded the PrediNet architecture as well as the test sets. The paper references exporting the PrediNet output as a Prolog program but I couldn't find the code to do this. So, I emailed the author, Prof. Murray Shanahan, wondering about this and his response is provided at the very bottom of this README.
+I have downloaded the [PrediNet](https://github.com/deepmind/deepmind-research/tree/master/PrediNet) architecture as well as the test sets. The paper references exporting the PrediNet output as a Prolog program but I couldn't find the code to do this. So, I emailed the author, Prof. Murray Shanahan, wondering about this and his response is provided at the very bottom of this README.
 
 He was under the impression that the code to get the prolog program output was straightforward to write out for PrediNet. Though, I don't think he realized how naive my understanding of pytorch and Neural Networks is.
 
