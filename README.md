@@ -17,18 +17,39 @@ To run this, you must have [Prolog](https://www.tutorialspoint.com/prolog/prolog
 ```
 ?- [predioutput].
 true.
+```
 
-?- holds(R,V,ob_0,Y), small(V).
+ - Here's an example of my running queries:
 
+```
+?- holds(R,V,ob_2,X), large(V).
+R = r6,
+V = 1.0,
+X = ob_0 .
+
+?- holds(R,V,ob_2,X), large(V).
+R = r6,
+V = 1.0,
+X = ob_0 .
+
+?- holds(R,V,ob_2,X), small(V).
 R = r0,
-V = -0.11,
-Y = ob_1 ;
-R = r5,
-V = -0.03,
-Y = ob_1 ;
-R = r7,
-V = -0.09,
-Y = ob_2.
+V = -0.15,
+X = ob_3 .
+
+?- holds(R,V,ob_2,X), small(V).
+R = r0,
+V = -0.15,
+X = ob_3 ;
+R = r0,
+V = -0.07,
+X = ob_0 ;
+R = r3,
+V = 0.06,
+X = ob_0 ;
+R = r4,
+V = -0.01,
+X = ob_4 .
 ```
 
 ## Run PrediNet Code
